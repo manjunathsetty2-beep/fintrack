@@ -1,0 +1,56 @@
+{
+  "name": "FinTrack - Personal Finance Tracker",
+  "short_name": "FinTrack",
+  "id": "com.fintrack.app",
+  "description": "Complete personal finance tracker — daily expenses, loans, EMI, salary and investment tracking for individuals",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0f1e",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["finance", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "FinTrack Dashboard"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Daily Expense",
+      "short_name": "Add Expense",
+      "description": "Quickly log a daily expense",
+      "url": "/?page=log",
+      "icons": [{"src": "icon-192.png", "sizes": "192x192"}]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "View your finance dashboard",
+      "url": "/?page=dash",
+      "icons": [{"src": "icon-192.png", "sizes": "192x192"}]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
